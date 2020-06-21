@@ -83,6 +83,5 @@ test:
 production:
   <<: *default
   database: mystore_production
-  password: <%= ENV['MYSTORE_DATABASE_PASSWORD'] %>
 
 
